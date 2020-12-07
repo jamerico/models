@@ -418,7 +418,7 @@ def train_loop(
     use_tpu=False,
     save_final_config=False,
     checkpoint_every_n=1000,
-    checkpoint_max_to_keep=7,
+    checkpoint_max_to_keep=100,
     record_summaries=True,
     performance_summary_exporter=None,
     **kwargs):
